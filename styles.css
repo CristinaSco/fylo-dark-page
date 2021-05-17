@@ -1,0 +1,288 @@
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size:14px;
+  padding:0;
+  color:white;
+}
+
+.page{
+  background-color: hsl(218, 28%, 13%);
+  padding:60px 120px;
+  position:relative;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+a{
+  color:white;
+  text-decoration: none;
+  margin-right:50px;
+}
+
+a:hover{
+  color:white;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.final{margin-right:0;}
+
+.presentation{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top:50px;
+}
+
+.illustrationIntro{text-align: center;}
+
+.title{
+  margin-top:30px;
+  text-align:center;
+}
+
+.title p{
+  margin-top:30px;
+}
+
+h2{
+  font-weight: 700;
+  font-size:25px;
+  font-family: 'Raleway', sans-serif;
+}
+
+button{
+  background-color: hsl(176, 68%, 64%);
+  color:white;
+  font-weight:700;
+  border:none;
+  padding:10px 60px;
+  border-radius: 30px;
+  margin-top:10px;
+}
+
+button:hover{
+  background-color: hsl(198, 60%, 50%);
+}
+
+.features{
+  text-align:center;
+  margin-top:150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.description{max-width:350px;}
+
+.description img{
+  margin-bottom:25px;
+  height:70px;
+  width: 70px;
+  object-fit: contain;
+}
+
+h6{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+}
+
+.description p{
+  padding:0;
+  margin:0;
+  font-size:13px;
+  max-width: 350px;
+}
+
+.productivity{
+  margin-top:100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom:100px;
+}
+
+.illustrationPro{text-align: right;}
+
+.textTwo{
+  text-align: left;
+  max-width:450px;
+}
+
+.textTwo a{
+  color:hsl(176, 68%, 64%);
+  text-decoration: underline;
+}
+
+.textTwo a:hover{
+  color:white;
+}
+
+.reviews{margin-bottom: 300px;}
+
+.miniCard{
+  background-color: hsl(219, 30%, 18%);
+  padding:30px;
+  border-radius: 5px;
+}
+
+.profile{
+  height:40px;
+  width: 40px;
+  object-fit: contain;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.miniRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top:25px;
+}
+
+.whoIs p{
+  padding:0;
+  margin:0;
+  font-size: 12px;
+}
+
+.name{font-weight: 700;}
+
+.cardAccess{
+  position:absolute;
+  bottom:-80px;
+  background-color:  hsl(218, 28%, 13%);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  padding:30px 60px;
+  max-width: 800px;
+  box-shadow: 5px 10px 18px black;
+}
+
+.cardAccess h6{
+  font-size:22px;
+  margin-bottom:20px;
+}
+
+input{
+  padding:8px 10px;
+  border-radius: 30px;
+  margin-right: 10px;
+  border:none;
+  outline: none;
+  text-align: left;
+  width:400px;
+}
+
+
+.footer{
+  background-color: hsl(216, 53%, 9%);
+  padding:150px 120px;
+}
+
+.icon{margin-right:10px;}
+
+.logo{margin-bottom:30px;}
+
+.linksBlock{
+  display: flex;
+  flex-direction: row;
+}
+
+.linksList{
+  margin-top:25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.linksList a{
+  margin-bottom:20px;
+}
+
+.linksList a:hover{
+  text-decoration: none;
+}
+
+.social svg{
+  height:30px;
+  width:30px;
+  object-fit: contain;
+  margin-right: 10px;
+  border:1px solid white;
+  border-radius: 50%;
+  padding:5px;
+  cursor: pointer;
+}
+
+path{fill:white;}
+
+path:hover{fill: hsl(176, 68%, 64%);}
+
+.social svg:hover{
+  border:1px solid hsl(176, 68%, 64%);
+}
+
+.social{margin-top:25px;}
+
+@media screen and (max-width:991px){
+  .page{padding:30px 30px;}
+
+  .navbar img{
+    heidht:70px;
+    width:70px;
+    object-fit: contain;
+  }
+
+  .presentation{margin-bottom:150px;}
+
+  .description{margin-bottom: 100px;}
+
+  .features{margin-top:0;}
+
+  .img-fluid{margin-bottom:50px;}
+
+  .miniCard{margin-bottom:30px;}
+
+  .inputButton{margin-top:30px;}
+
+  input{
+    width:100%;
+    margin-bottom:10px;
+  }
+
+  .inputButton button{width:100%;}
+
+  .footer{
+    padding:300px 30px;
+    padding-bottom: 50px;
+  }
+
+  .linksBlock{
+    flex-direction: column;
+    margin-top:50px;
+  }
+
+  .cardAccess{
+    max-width:400px;
+    bottom:-150px;
+  }
+
+  .social{
+    text-align: center;
+    margin-top:80px;
+  }
+}
